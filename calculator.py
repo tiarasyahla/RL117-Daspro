@@ -3,9 +3,10 @@ a = input("Masukkan angka pertama: ")
 b = input("Masukkan angka kedua: ")
 
 print("\n1. Penjumlahan \
-2. Pengurangan \
-3. Perkalian \
-4. Pembagian")
+2. Pengurangan (a+b) \
+3. Perkalian (a*b) \
+4. Pembagian (a/b) \
+5. Pangkat (a^b)")
 angka = input("Pilih operasi matematika: ")
 
 if angka == 1:
@@ -16,5 +17,7 @@ elif angka == 3:
     print(a*b)
 elif angka == 4:
     print(a/b)
+elif angka == 5:
+    print(a**b)
 else:
     print("pilihan tidak valid.")
